@@ -1,6 +1,6 @@
 <?php
  
-$served_by = '';
+$served_by = '';;;
 if ($_GET['method'] == 'flickr.photos.search') {
 	if (strpos($_GET['text'], 'group:') === 0) {
 		$group_name = trim(substr($_GET['text'], 6));
